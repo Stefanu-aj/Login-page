@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://fonts.googleapis.com/css?family=Afacad Flux' rel='stylesheet'>
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+crossorigin="anonymous" 
+referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css" />
+    <style>
+.main-div{
+    display: flex;
+    
+
+}
+
+.second-div{
+width: 36%;
+    place-items: center;
+    margin:    20px 70px 10px 70px;
+
+    
+    
+    
+}
+img{
+    width: 78%;
+    height: 660px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+margin-top: 25px;
+margin-left: 8px;
+position: relative;
+
+}
+.flowers{
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 527px;
+    color: white;
+    font-size: 50px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    
+    margin-top: 25px;
+}
+.email{
+    width: 98%;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    font-family: Afacad Flux, Helvetica, sans-serif;
+}
+.password{
+    width: 98%;
+    height: 35px;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    font-family: Afacad Flux, Helvetica, sans-serif;
+    
+}
+.p-word{
+    color: black;
+}
+.create{
+    padding: 10px 130px;
+    border: none;
+    font-family: Afacad Flux, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.login{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: black;
+    font-family: Afacad Flux, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.p-for-forgot{
+    margin-top: 10px;
+margin-bottom: 35px;
+    font-family: Afacad Flux, sans-serif;
+text-align: right;
+}
+
+.fa-facebook-f{
+color: #3b5998;
+}
+
+
+.p-for-create{
+    text-align: center;
+    margin-top: 55px;
+    font-family: Afacad Flux, sans-serif;
+    
+
+}
+.p-one{
+margin-bottom: 5px;
+font-family: Afacad Flux, Helvetica, sans-serif;
+
+}
+.p-two{
+margin-bottom: 5px;
+font-family: Afacad Flux, Helvetica, sans-serif;
+}
+.or{
+    text-align: center;
+    font-family: Afacad Flux, Helvetica, sans-serif;
+}
+.link{
+    display: flex;
+    gap: 25px;
+     font-family: Afacad Flux, Helvetica, sans-serif;
+     font-weight: 700;
+    margin-bottom: 50px;
+}
+.tags{
+    text-decoration: none;
+    color: black;
+}
+.a-tag{
+    border: 1px solid gainsboro;
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    align-content: center;
+     font-family: Afacad Flux, Helvetica, sans-serif;
+     font-weight: 700;
+    
+    
+}
+.b-tag{
+    border: 1px solid gainsboro;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    
+}
+.img-2{
+    width: 70px;
+height: 70px;
+
+}
+.fa-google{
+
+color: rgba(205, 94, 50, 0.503);
+
+}
+.login:hover {
+    cursor: pointer;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+.create:hover {
+    cursor: pointer;
+}
+.p-for-forgot:hover{
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+    <div class="main-div">
+    <div class="second-div" >
+        <form>
+            <h1>Welcome <br> back!</h1>
+
+            <div class="email-password-grouping">
+            <p class="p-one">Email</p> 
+            <input  class="email" type="email" placeholder="Enter your email address"  required />
+
+            </div>
+
+            <div class="email-password-grouping">
+            <p class="p-two">Password</p>
+            <input class="password" type="password" placeholder="Enter your password" required />
+             
+            </div>
+            <div class="p-for-forgot">
+            <a class="p-word" href="https://www.gmail.com"> Forgot your password?</a>
+            </div>
+            <button class="login">Login</button>
+            <p class="or">or</p>
+            <div class="link">
+            <div class="a-tag">
+                 <i class="fa-brands fa-facebook-f"></i> 
+            <a class="tags" href="https://www.facebook.com/">Facebook </a>
+            </div>
+            <div class="b-tag">
+                <i class="fa-brands fa-google"></i>
+                 <a class="tags" href="https://www.google.com/"  >Google</a>
+
+            </div>
+            </div>
+            <p class="p-for-create">Don't have an account?</p>
+            <button class="create" >Create account</button>
+        </div>
+
+
+
+
+
+        </form>
+        <img 
+                    src="Image/Page image.jpg"
+                    alt="side_page"
+                    class="image"/> 
+        <h1 class="flowers">Fresh flowers <br> for any special occasion</h1>
+
+
+
+
+
+
+
+</div>
+<script src="index.js"></script>
+    
+
+</body>
+</html>

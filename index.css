@@ -1,0 +1,160 @@
+html {
+    padding: 0px;
+    margin: 0px;
+}
+body {   
+    background-color: #f5f5f5;
+}
+.container {
+    background-color: white;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+    height: 600px;
+    width: 95%;
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 40%);
+    display: flex;
+    flex-direction: row;
+
+}
+.email {
+    height: 40px;
+    width: 100%;
+    line-height: 50px;
+    border: 1px solid #dfdfdf;
+    background: transparent;
+    border-radius: 6px;
+    padding-left: 20px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 5%);
+    font-family: Afacad Flux, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: #888;
+    margin-bottom: 15px;
+    
+
+}
+.password {
+    height: 40px;
+    width: 100%;
+    line-height: 50px;
+    border: 1px solid #dfdfdf;
+    background: transparent;
+    border-radius: 6px;
+    padding-left: 20px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 5%);
+    font-family: Afacad Flux, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: #888;
+}
+.label {
+    display: flex;
+    font-weight: 400;
+    font-size: 9px;
+    padding-left: 0;
+    padding-bottom: 10px;
+    font-family: Afacad Flux, Helvetica, sans-serif;
+}
+
+.log_btn {
+    width: 110%;
+    height: 50px;
+    font-size: 10px;
+    font-weight: 300;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    font-family: Afacad Flux, Helvetica, sans-serif;
+    
+}
+.log_btn:hover {
+    background-color: #888;
+}
+.frget {
+    color: black;
+    font-size: 12px;
+    position: relative;
+    left: 60%;
+    top: -10px;
+}
+.or {
+    font-size: 12px;
+    color: #888;
+    position: relative;
+    left: 55%;
+    top: 10px;
+}
+.login-form {
+    margin-left: 50px;
+    width: 100%;
+    height: 100%;
+}
+.social {
+    display: flex;
+}
+.fb {
+    border: 1px solid #dfdfdf;
+    background: transparent;
+    border-radius: 0;
+    padding-left: 20px;
+    height: 35px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 10px;
+    
+}
+.Google {
+    border: 1px solid #dfdfdf;
+    background: transparent;
+    border-radius: 0;
+    height: 35px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 10px;
+    position: relative;
+    left: 10%;
+}
+.dont {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5%;
+    position: relative;
+    top: 10px;
+    left: 30%;
+
+}
+.create {
+    border: 0;
+    height: 35px;
+    width: 110%;
+    margin-bottom: 3%;
+    font-size: 10px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.create:hover {
+    background-color: darkslategrey;
+    color: #f5f5f5;
+}
+
+.image {
+    margin: 3%;
+    width: 60%;
+    height: 550px;
+    margin-left: 20%;
+    display: flex;;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+}
+.fa-facebook-f {
+    margin-right: 25px;
+    color: #3b5998;
+    
+}
